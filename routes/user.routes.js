@@ -14,6 +14,7 @@ router.post('/verify-email', verifyEmail);
 router.post('/verify-otp', verifyOtp);
 
 router.post('/login', login);
+
 router.post('/verify-account', verifyOTP);
 
 router.post('/forgot-password', forgotPassword);

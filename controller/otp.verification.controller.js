@@ -5,7 +5,6 @@ export const verifyOTP = async (req, res) => {
   const { email, otp } = req.body;
 
   try {
-
     const user = await User.findOne({ email });
 
     if (!user) {

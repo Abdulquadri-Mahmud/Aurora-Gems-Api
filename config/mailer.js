@@ -1,6 +1,3 @@
-// utils/mailer.js
-// Sends emails using nodemailer
-
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
