@@ -4,7 +4,7 @@ import User from '../model/user.model.js';
 import { sendMail } from '../config/mailer.js';
 
 // In-memory token storage (or use DB in production)
-let verificationTokens = new Map();
+// let verificationTokens = new Map();
 
 // 📧 Email Verification
 
